@@ -10,9 +10,7 @@ body{
     width:31%;
     float:left;
 }
-#wrapper > h1{
-    text-align:center;
-}
+
 #wrapper p{
     margin:75px 10px 10px;
     font-weight: 700;
@@ -37,22 +35,22 @@ body{
     clear: both;
 }
 
-.chicken h2{
+#chicken h2{
     background: #C14242;
 }
-.beef h2{
+#beef h2{
     background:crimson;
 }
-.sushi h2{
+#sushi h2{
     background:#C6C624;
 }
 
 @media screen and (max-width:1024px) and (min-width: 414px)
 {
-    #wrapper .sushi{
+    #wrapper #sushi{
         width:97%;
     }
-    #wrapper .chicken,#wrapper .beef{
+    #wrapper #chicken,#wrapper #beef{
         width:46.8%;
     }
 }
